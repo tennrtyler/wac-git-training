@@ -9,6 +9,7 @@ it exists so Exercise 3 has something worth rebasing.
 | ---- | ------------ | ---------------------------------------------- |
 | 1    | Intake queue | Fax lands in `intake-queue`                    |
 | 2    | ESE on-call  | Tier 1 hasn't picked it up within the SLA      |
+| 3    | Engineering  | Tier 2 escalates a workflow defect             |
 
 ## Thresholds
 
