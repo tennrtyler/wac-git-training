@@ -16,7 +16,7 @@
     {
       "id": "route-fax",
       "type": "routing",
-      "priority": "normal",
+      "priority": "batch",
       "destination": "intake-queue"
     },
     {
