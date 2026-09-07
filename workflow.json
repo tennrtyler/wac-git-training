@@ -1,0 +1,29 @@
+{
+  "workflow": "referral-intake",
+  "version": 3,
+  "description": "Toy referral intake workflow for git training. Not a real WAC workflow.",
+  "steps": [
+    {
+      "id": "classify-document",
+      "type": "classification",
+      "labels": ["Referral", "CMN", "Insurance Card", "Clinical Notes", "Other"]
+    },
+    {
+      "id": "extract-fields",
+      "type": "extraction",
+      "fields": ["patient_name", "dob", "referring_provider", "icd10_codes"]
+    },
+    {
+      "id": "route-fax",
+      "type": "routing",
+      "priority": "normal",
+      "destination": "intake-queue"
+    },
+    {
+      "id": "notify-team",
+      "type": "notification",
+      "channel": "#intake-alerts",
+      "on": ["error"]
+    }
+  ]
+}
