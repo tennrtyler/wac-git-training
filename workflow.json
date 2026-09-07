@@ -6,7 +6,7 @@
     {
       "id": "classify-document",
       "type": "classification",
-      "labels": ["Referral", "CMN", "Insurance Card", "Clinical Notes", "Other"]
+      "labels": ["Referral", "CMN", "Insurance Card", "Clinical Notes", "Other", "Prior Auth"]
     },
     {
       "id": "extract-fields",
