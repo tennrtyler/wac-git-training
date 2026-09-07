@@ -16,3 +16,9 @@ it exists so Exercise 3 has something worth rebasing.
 - Unrouted fax page threshold: 15 minutes
 - Classification confidence floor: 0.80
 - Alert channel: `#intake-alerts`
+
+## Weekend handoff
+
+Friday 17:00 through Monday 09:00 the Tier 2 pager follows the weekend
+rotation, not the weekday on-call. Hand off in `#intake-alerts` before you
+drop off.
