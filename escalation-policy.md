@@ -13,6 +13,6 @@ it exists so Exercise 3 has something worth rebasing.
 
 ## Thresholds
 
-- Unrouted fax page threshold: 60 minutes
+- Unrouted fax page threshold: 15 minutes
 - Classification confidence floor: 0.80
 - Alert channel: `#intake-alerts`
